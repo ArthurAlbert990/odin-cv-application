@@ -5,9 +5,22 @@ import React from 'react';
 class PersonalInfo extends React.Component{
     render(){
         return (
-            <h1 className='mb-2 mt-0 text-5xl font-medium leading-tight text-primary text-neutral-500'>
-                Your Personal Info:
-            </h1>
+            <div className=''>
+                <form>
+                    <div>
+                        <label for='name'>Name:</label>
+                        <input id="name" type="text" placeholder="Full name"></input>
+                    </div>
+                    <div>
+                        <label for='age'>Age:</label>
+                        <input id='age' type='number' placeholder='Age'></input>
+                    </div>
+                    <div>
+                        <label for='address'>Address:</label>
+                        <input id="address" type="text" placeholder="Address"></input>
+                    </div>
+                </form>
+            </div>
             )
     }
 }
