@@ -1,0 +1,6 @@
+{
+    "tailwindCSS.lint.invalidTailwindDirective": "ignore",
+    "tailwindCSS.lint.invalidVariant": "ignore",
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.lint.invalidScreen": "ignore"
+}
